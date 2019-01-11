@@ -1,0 +1,7 @@
+setup.py
+filehierarch/__init__.py
+filehierarch/filehierarch.py
+filehierarch.egg-info/PKG-INFO
+filehierarch.egg-info/SOURCES.txt
+filehierarch.egg-info/dependency_links.txt
+filehierarch.egg-info/top_level.txt
