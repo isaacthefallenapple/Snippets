@@ -1,5 +1,4 @@
 import re
-from numpy import arange
 
 
 def loadingbar(width, p=0, p_precision=2, symbol=u'#'):
@@ -9,9 +8,7 @@ def loadingbar(width, p=0, p_precision=2, symbol=u'#'):
             self.format_pattern = re.compile("(%\w)")
 
         def __format__(self, format_spec):
-            # print(format_spec)
             out_string = format_spec
-            # print(self.format_dict)
             for match in self.format_pattern.finditer(format_spec):
                 key = match.group(1)
                 out_string = re.sub(key, self.format_dict[key], out_string)

@@ -1,0 +1,7 @@
+setup.py
+loadingbar/__init__.py
+loadingbar/loadingbar.py
+loadingbar.egg-info/PKG-INFO
+loadingbar.egg-info/SOURCES.txt
+loadingbar.egg-info/dependency_links.txt
+loadingbar.egg-info/top_level.txt
